@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+    <title>Admin DashBoard </title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/nprogress.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/green.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/jqvmap.min.css" rel="stylesheet" /> -->
+    <!-- <link href="assets/css/daterangepicker.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/cardssec.css">
+    <link href="assets/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><img src="assets/images/Anthimaghat-logo-white.png" alt=""> <span></span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="profile clearfix">
+                        <!-- <div class="profile_pic">
+                            <img src="assets/images/user.png" alt="..." class="img-circle profile_img">
+                        </div> -->
+                        <!-- <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>"UserName"</h2>
+                        </div> -->
+                    </div>
+                    <br />
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <!-- <h3>General</h3> -->
+                            <ul class="nav side-menu">
+                                <li><a href="index.html"><i class="fa fa-home"></i> DashBoard</span></a>
+                                    <!-- <ul class="nav child_menu">
+                                        <li><a href="index.html">Branch 1</a></li>
+                                        <li><a href="index.html">Branch 2</a></li>
+                                        <li><a href="index.html">Branch 3</a></li>
+                                    </ul> -->
+                                </li>
+                                <li><a><i class="fa fa-edit"></i> Categories <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Graveyards.html">Grave Yeards</a></li>
+                                        <li><a href="Graveyardsproducts.html">Grave Yeard Products</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                <!-- <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="tables.html">Tables</a></li>
+                                        <li><a href="tables.html">Table Dynamic</a></li>
+                                    </ul>
+                                </li> -->
+                                <li><a href="orderdetails.html"><i class="fa fa-home"></i> Orders</span></a>
+                                </li>
+                                <li><a href="contact.html"><i class="fa fa-home"></i> Contact Details</span></a>
+                                </li>
+                                <li><a href="Users.html"><i class="fa fa-home"></i> Users</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+                        <ul class=" navbar-right">
+                            <li class="nav-item dropdown open" style="padding-left: 15px;">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true"
+                                    id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/images/user.png" alt="">John Doe
+                                </a>
+                                <div class="dropdown-menu dropdown-usermenu pull-right"
+                                    aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="javascript:;"> Profile</a>
+                                    <a class="dropdown-item" href="javascript:;">
+                                        <span class="badge bg-red pull-right">50%</span>
+                                        <span>Settings</span>
+                                    </a>
+                                    <a class="dropdown-item" href="javascript:;">Help</a>
+                                    <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out pull-right"></i>
+                                        Log Out</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="right_col" role="main">
+
+                <div id="id">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="statics">
+
+
+
+
+<!-- Box Models -->
+                                <div id="root">
+                                    <div class="container pt-5">
+                                      <div class="row align-items-stretch">
+                                        <div class="c-dashboardInfo col-lg-3 col-md-6">
+                                          <div class="wrap">
+                                            <h4 class="heading heading5 hind-font medium-font-weight c-dashboardInfo__title">Number Of Orders<svg class="MuiSvgIcon-root-19" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z">
+                                                </path>
+                                              </svg></h4><span class="hind-font caption-12 c-dashboardInfo__count">50</span>
+                                          </div>
+                                        </div>
+                                        <div class="c-dashboardInfo col-lg-3 col-md-6">
+                                          <div class="wrap">
+                                            <h4 class="heading heading5 hind-font medium-font-weight c-dashboardInfo__title">Today Orders<svg class="MuiSvgIcon-root-19" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z">
+                                                </path>
+                                              </svg></h4><span class="hind-font caption-12 c-dashboardInfo__count">5</span><span class="hind-font caption-12 c-dashboardInfo__subInfo"></span>
+                                          </div>
+                                        </div>
+                                        <div class="c-dashboardInfo col-lg-3 col-md-6">
+                                          <div class="wrap">
+                                            <h4 class="heading heading5 hind-font medium-font-weight c-dashboardInfo__title">Contacts<svg class="MuiSvgIcon-root-19" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z">
+                                                </path>
+                                              </svg></h4><span class="hind-font caption-12 c-dashboardInfo__count">200</span>
+                                          </div>
+                                        </div>
+                                        <div class="c-dashboardInfo col-lg-3 col-md-6">
+                                          <div class="wrap">
+                                            <h4 class="heading heading5 hind-font medium-font-weight c-dashboardInfo__title">NumberOf Users<svg class="MuiSvgIcon-root-19" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z">
+                                                </path>
+                                              </svg></h4><span class="hind-font caption-12 c-dashboardInfo__count">500</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <div class="pull-right">
+                  
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/custom.min.js"></script>
+    <!-- <script src="assets/js/fastclick.js"></script> -->
+    <!-- <script src="assets/js/nprogress.js"></script> -->
+    <!-- <script src="assets/js/Chart.min.js"></script> -->
+    <!-- <script src="assets/js/gauge.min.js"></script> -->
+    <!-- <script src="assets/js/icheck.min.js"></script> -->
+    <!-- <script src="assets/js/skycons.js"></script> -->
+    <!-- <script src="assets/js/flot.js"></script>
+    <script src="assets/js/flot.pie.js"></script>
+    <script src="assets/js/flot.time.js"></script>
+    <script src="assets/js/flot.stack.js"></script>
+    <script src="assets/js/flot.resize.js"></script> -->
+    <!-- 
+    <script src="assets/js/flot.orderBars.js"></script>
+    <script src="assets/js/spline.min.js"></script>
+    <script src="assets/js/curvedLines.js"></script>
+    <script src="assets/js/date.js"></script>
+    <script src="assets/js/vmap.js"></script>
+    <script src="assets/js/world.js"></script>
+    <script src="assets/js/sampledata.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/daterangepicker.js"></script> -->
+</body>
+
+</html>
